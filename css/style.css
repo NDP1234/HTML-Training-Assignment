@@ -1,0 +1,132 @@
+.roundImage{
+    border: 20px solid white;
+}
+
+body{
+   
+    background-color: #fff;
+}
+
+
+
+input{
+ 
+    width: 60%;
+    padding:10px ;
+}
+
+
+.container{
+   
+    padding: 20px;
+    display: flex;
+}
+.child{
+    width: 50%;
+    float: left;
+    padding: 20px;
+
+    margin: 20px;
+}
+
+.redButton{
+    color: white;
+    background-color: red;
+    width:15% ;
+    border-radius: 20px;
+    border: none;
+}
+
+
+
+h1{
+    font-size:80px ;
+}
+
+h2{
+    font-size: 60px;
+}
+.mgm{
+    margin-top: 40px;
+    margin-bottom: 30px;
+}
+
+.mgb{
+    margin-bottom: 20px;
+}
+
+.mglf{
+    margin-left: 150px;
+}
+.mgtp{
+    margin-top: 50px;
+}
+h1.inln{
+    display: inline-block;
+}
+
+#redColor{
+    font-weight: bolder;
+    color: red;
+}
+
+.snglrow{
+    margin-top:30px;
+}
+
+#fpwd{
+    color: gray;
+    text-decoration: none;
+    font-weight: lighter;
+}
+
+a#rghr{
+    color: red;
+    text-decoration: none;
+}
+
+input[type="text"]{
+    border-radius: 8px;
+}
+
+
+ .sidebar {
+    height: 100%;
+    width: 180px;
+    position: relative;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: white;
+    overflow-x: hidden;
+    padding-top: 16px;
+  }
+
+  .sidebar a {
+    padding: 6px 8px 6px 16px;
+    text-decoration: none;
+    font-size: 20px;
+    color: #818181;
+    display: block;
+  }
+  
+  .sdbarimg{
+    width: 30px;
+  }
+
+  .srch{
+    margin-left: 40px;
+  }
+
+  .topnav{
+    margin-top: 20px;
+  }
+
+  .topnav a{
+    margin: 15px;
+  }
+
+  .topnav input{
+    border: none;
+  }
+
