@@ -130,3 +130,321 @@ input[type="text"]{
     border: none;
   }
 
+  /*  */
+  .main{
+    margin-left: 200px;
+    margin-top: -315px;
+    /* margin-top: -315px; */
+    background-color:#f9f9f9;
+    
+ }
+
+ .divwd{
+    text-align: center;
+    width: 15%;
+    border: 0.5px solid rgb(207, 205, 205);
+    margin-top: 15px;
+    margin-left: 40px;
+    margin-bottom: 15px;
+    background-color: white;
+    padding: 5px;
+
+ }
+
+ .fllft{
+    float: left;
+ }
+
+ .row{
+    width: 80%;
+ }
+
+ .ttlprdct{
+    height: 55px;
+    width: 55px;
+ }
+
+ .dbd{
+    margin-left: 58px;
+ }
+
+ .imgdg{
+    margin-left: 60px;
+ }
+
+.gfg {
+    margin-top: auto;
+      margin-right:145px;
+      position: relative;
+      float: right;
+      width: 360px;
+      height: 352px;
+      text-align: center;
+      background-color: white;
+}
+
+.rdbtn{
+    
+    width: 30px;
+    height: 30px;
+
+}
+
+.pchart{
+    width:225px;
+    height: 225px;
+}
+
+.gfg h3{
+    font-size: 20px;
+}
+ 
+td span{
+    font-size: 10px;
+}
+
+.gfg table{
+    text-align: start;
+    margin-left:60px;
+}
+
+.d-inline-block{
+    background-color: white;
+    margin-right: 25px;
+}
+
+.invoices{
+    margin-left: 50px;
+    margin-top: 40px;
+}
+
+ .navbar{
+    margin-left: 60px;
+    background-color: white;
+}
+
+.navbar-expand-lg .navbar-collapse{
+    margin-left: 480px;
+}
+
+.bg-light{
+    background-color: white ;
+}
+
+.invoices table{
+    width: 1130px;
+}
+
+.invoices .navbar{
+    width: 1080px;
+    
+}
+
+.invoices .navbar-expand-lg .navbar-collapse{
+    margin-left: 850px;
+}
+
+.invoices .navbar{
+    margin-left: 0px;
+    background-color: white;
+}
+/*  */
+
+.dropbtn {
+    background-color: white;
+    color: black;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    display: block;
+    width: 100%;
+  }
+  
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  .dropdown-content a:hover {background-color: #f1f1f1}
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+  
+  .dropdown:hover .dropbtn {
+    background-color:gray;
+  }
+
+  /*  */
+
+  .part-1{
+    width: 800px;
+  }
+
+
+  .form-group{
+    padding:0px;
+    border:2px solid;
+    margin:0px;
+  }
+  .form-group>label{
+    padding-left: 5px;
+    padding-right: 5px;
+    position:relative;
+    top:-20px;
+    left:20px;
+    background-color:white;
+  }
+  
+  .form-group>input{
+    border:none;
+  }
+ 
+  .image-upload>input {
+    display: none;
+  }
+
+
+  .RadioButton input[type="radio"] {
+    /* remove standard background appearance */
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    /* create custom radiobutton appearance */
+    display: inline-block;
+    width: 18px;
+    height: 18px;
+    padding: 2px;
+    /* background-color only for content */
+    background-clip: content-box;
+    border: 2px solid #bbbbbb;
+    background-color: #e7e6e7;
+    border-radius: 50%;
+  }
+  
+  /* appearance for checked radiobutton */
+  .RadioButton input[type="radio"]:checked {
+    background-color:red;
+    border: 2px solid red;
+  }
+
+  .inln1{
+    display: inline-block;
+    margin: 5px;
+  }
+
+  .alert1{
+    background-color: white;
+    color: red;
+    border: 2px solid red;
+  }
+  .alert2{
+    background-color: white;
+    color: rgb(78, 188, 231) ;
+    border: 2px solid rgb(78, 188, 231);
+  }
+  .alert3{
+    background-color: white;
+    color:rgb(216, 216, 6) ;
+    border: 2px solid rgb(216, 216, 6) ;
+  }
+  .alert4{
+    background-color: white;
+    color:green ;
+    border: 2px solid green ;
+  }
+
+  #btnSearch,
+  #btnClear{
+      display: inline-block;
+      /* vertical-align: top; */
+  }
+
+  .Call_to_an_action .btn1{
+    border-radius: 18px;
+    width: 100px;
+  }
+  .Call_to_an_action .btn2{
+    border-radius: 18px;
+    width: 100px;
+    background-color: white;
+    border: 2px solid red;
+    color: red;
+  }
+
+  .Tabs .navbar{
+    margin-left: -480px;
+  }
+
+  .part-1{
+    margin: 10px;
+  }
+  
+  .container-1{
+    margin: 10px;
+  }
+  .container-2{
+    margin: 10px;
+  }
+  .container-3{
+    margin: 10px;
+  }
+
+  .part-2{
+    margin: 10px;
+  }
+
+  .container-4 .row{
+    margin: 10px;
+  }
+
+  .part-3{
+    margin: 10px;
+  }
+
+  .container-5 .row{
+    margin: 10px;
+  }
+
+  .td1{
+    color: green;
+    font-weight: bolder;
+  }
+
+  .td2{
+    color: red;
+    font-weight: bolder;
+  }
+
+  .td3{
+    color: gray;
+    font-size: bolder;
+  }
+
+  .part-4, .part-5, .RadioButton, .Ckbox, .Snackbar, .Call_to_an_action, .Tabs{
+    margin: 10px;
+  }
+
+  .container-6 .row{
+    margin: 10px;
+  }
+
+
+
