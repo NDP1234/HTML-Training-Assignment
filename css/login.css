@@ -1,0 +1,152 @@
+:root {
+    --my-red: rgb(200, 36, 47);
+    --my-transparent-red: rgba(200, 36, 47, 0.8)
+}
+
+html,
+body {
+    background-color: #FAFAFA;
+}
+
+.my-container {
+    font-weight: 400;
+    font-size: larger;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    position: absolute;
+    width: 100%;
+}
+
+.login-container {
+    background-color: transparent;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.hero-wrapper {
+    text-align: center;
+}
+
+.hero-page {
+    /* width: 50%; */
+    padding: 10px;
+    align-self: center;
+
+}
+
+.login-page {
+    border-color: blue;
+    padding: 5px;
+    max-width: 50%;
+}
+
+.login-wrapper {
+    padding: 30px;
+}
+
+.button-group {
+    margin: 10px 0 10px 0;
+}
+
+.button-grp-button {
+    display: inline-block;
+
+}
+
+#login-button {
+    border: none;
+    padding: 10px 40px 10px 40px;
+    background-color: var(--my-red);
+    border-radius: 30px;
+    color: white;
+    margin: none;
+}
+
+#login-button:hover {
+    background-color: var(--my-transparent-red);
+}
+
+#forgot-button-div {
+    float: right;
+}
+
+#forgot-button {
+    background-color: transparent;
+    border: none;
+    opacity: 0.5;
+    font-size: 15px;
+}
+
+#forgot-button:hover {
+    opacity: 1;
+}
+
+.new-member p {
+    display: inline-block;
+    font-size: 15px;
+    opacity: 0.5;
+}
+
+#register-link {
+    display: inline-block;
+    margin-left: 10px;
+    opacity: 0.8;
+    font-size: 15px;
+    color: var(--my-red);
+    border-bottom: 1px solid var(--my-red);
+    padding-bottom: 0px;
+}
+
+#register-link:hover {
+    opacity: 1;
+    cursor: pointer;
+}
+
+.company-text {
+    font-size: max(3vw, 1.5em);
+}
+
+.login-text p {
+    font-size: max(25px, 1em);
+    margin: 10px 0 20px 0;
+}
+
+#expert-text {
+    font-weight: 700;
+    color: var(--my-red);
+}
+
+.circle {
+    padding: 20px;
+    background-color: white;
+    text-align: center;
+    overflow: hidden;
+    border-radius: 50%;
+    aspect-ratio: 1/1;
+}
+
+@media only screen and (max-width: 900px) {
+    .circle {
+        width: max(60vw, 300px);
+    }
+
+    .my-container {
+        width: auto;
+        top: auto;
+        left: auto;
+        transform: translate(0, 0);
+        position: relative;
+    }
+
+    .login-container {
+        flex-direction: column;
+        align-items: flex-start;
+
+    }
+
+    .login-page {
+        max-width: fit-content;
+    }
+}

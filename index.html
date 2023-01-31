@@ -1,44 +1,66 @@
+
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Login Page </title>
-    <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="icon" type="image/x-icon" href="/assets/favicon.ico">
+    <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css">
+    <link href="css/login.css" rel="stylesheet">
+    <title>Login</title>
 </head>
+
 <body>
-    <div class="container">
-        <div class="child C1">
-            <img  class="rounded-circle" src="images/hero-image.png" alt="">
-        </div>
-        <div class="child C2">
-            <div class="snglrow">
-                <img  src="images/favicon.ico"  width="50px" alt="">
-                <h1 class="inln H1">
-                    &nbsp;
-                    Company 
-                </h1>
+    <div class="my-container">
+
+        <div class="login-container">
+            <div class="hero-page">
+
+                <div class="hero-wrapper">
+                    <img class="circle" src="images/hero-image.png">
+                </div>
             </div>
-                <br>
-            <h1 Class="H1">
-                We are <span id="redColor">experts</span> in Buzziness, marketing, growth & sales. 
-            </h1>
-              
+            <div class="login-page">
+                <div class="login-wrapper">
+                    <img src="images/logo.svg">
+                    <div class="company-text">
+                        <p>We are <span id="expert-text">experts</span> in business, marketing, growth & sales.</p>
+                    </div>
+                    <div class="login-text">
+                        <p>Login to your account</p>
+                    </div>
+                    <div class="form-wrapper">
+                        <form>
+                            <div class="form-floating mb-3">
+                                <input type="text" class="form-control text-input" id="floatingInput" placeholder="Enter Username">
+                                <label for="floatingInput">Username</label>
+                            </div>
+                            <div class="form-floating">
+                                <input type="password" class="form-control text-input" id="floatingPassword" placeholder="Enter Password">
+                                <label for="floatingPassword">Password</label>
+                            </div>
+                            <div class="button-group">
+                                <div class="button-grp-button" id="login-button-div">
+                                    <input type="submit" value="Login" id="login-button">
+                                </div>
+                                <div class="button-grp-button " id="forgot-button-div">
+                                    <input type="button" value="Forgot password?" id="forgot-button">
+                                </div>
+                            </div>
+                        </form>
+                        <div class="new-member">
+                            <p>Are you a new member ?</p><a id="register-link">Register Here</a>
+                        </div>
 
-            <h2 class="mgm H2">
-                Login into your account
-            </h2>
-            <form action="">
-                <input type="text" class="mgb" name="umane" placeholder="Username"><br>
-                <input type="text" class="mgb" name="pwd" placeholder="Password"><br>
-                <input class="redButton mgb" type="button" value="login">
-                <a class="mglf" id="fpwd" href="">Forgot Password?</a><br>
-                <div class="btm"><span>Are you a new member?  </span> <a id="rghr" href="">Register Here</a></div>
-            </form>
+                    </div>
+                </div>
 
+            </div>
         </div>
     </div>
+    <script src="js/bootstrap.bundle.min.js"></script>
 </body>
+
 </html>
